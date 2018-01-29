@@ -31,7 +31,9 @@ peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Acceler
   Magnetic sensor, RGB ambient light, Infrared (IR) LED sensor, GPS, NFC]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
-  When the blue text appears, release the buttons.
+  When the blue text appears, release the buttons. If the device is in download mode, hold 
+  <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the screen goes 
+  black, release <kbd>Volume Down</kbd>.
 release: 2015-04
 required_bootloader: [G920FXXU5EQI8]
 screen: 129.5 mm (5.1 in)
